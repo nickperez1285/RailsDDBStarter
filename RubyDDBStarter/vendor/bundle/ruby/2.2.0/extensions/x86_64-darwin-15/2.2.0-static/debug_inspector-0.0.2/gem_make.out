@@ -1,0 +1,11 @@
+/usr/local/bin/ruby -r ./siteconf20151102-11867-1gf3ksu.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20151102-11867-16ekbs8
